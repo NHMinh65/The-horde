@@ -1,0 +1,584 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1713248586246225, "dur": 8310679, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713248586254339, "dur": 27318, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713248586281663, "dur": 8270004, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713248594551677, "dur": 5220, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713248594563382, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1713248586524755, "dur":1699, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248586526462, "dur":289, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1713248586526780, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1713248586526800, "dur":318, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1713248586527142, "dur":641, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248586527783, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594390607, "dur":2357, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594392965, "dur":126, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393092, "dur":33, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393125, "dur":125, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393250, "dur":29, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393279, "dur":83, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393362, "dur":26, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393389, "dur":72, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393461, "dur":26, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393487, "dur":76, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393564, "dur":30, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393594, "dur":77, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393671, "dur":25, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393696, "dur":77, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393773, "dur":24, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393797, "dur":115, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594393913, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594395031, "dur":22, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594395356, "dur":16271, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1713248586527513, "dur":294, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586527807, "dur":37385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586565213, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1713248586565865, "dur":1126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586567070, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586593488, "dur":24445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1713248586618982, "dur":1078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1713248586620062, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586620180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586620253, "dur":13068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1713248586634318, "dur":1036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1713248586635357, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586636006, "dur":265, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586640590, "dur":32821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1713248586673989, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1713248586674728, "dur":1139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586675968, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586680108, "dur":143131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1713248586823981, "dur":1079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248586825063, "dur":866, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586825982, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586826042, "dur":41691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248586869678, "dur":1029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248586870709, "dur":382, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586871112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586871190, "dur":38641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248586910409, "dur":992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248586911403, "dur":462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586911918, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586911979, "dur":41327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248586954342, "dur":1645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248586955989, "dur":567, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586956796, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586957512, "dur":14700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248586972674, "dur":1015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248586973691, "dur":1963, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586975712, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248586975798, "dur":31483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248587011107, "dur":1788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248587012896, "dur":1710, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248587014663, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248587014724, "dur":28645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248587043756, "dur":1154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248587044912, "dur":709, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248587045628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248587045635, "dur":27118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248587075172, "dur":1174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248587076349, "dur":719, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248587077170, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248587077252, "dur":73471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248587151175, "dur":1367555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248588518786, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248588518853, "dur":13499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248588536833, "dur":1554480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248590091390, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713248590091484, "dur":135518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":1, "ts":1713248590227451, "dur":4162973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586527569, "dur":259, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586527828, "dur":37362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586566462, "dur":2446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1713248586568910, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586569339, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586601466, "dur":26140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1713248586628352, "dur":1290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1713248586629645, "dur":855, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586630581, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586630667, "dur":20310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1713248586652875, "dur":838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1713248586653716, "dur":1120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586657138, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586657444, "dur":32229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1713248586692050, "dur":1129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586693183, "dur":9522, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586702767, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586705909, "dur":63256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586769683, "dur":1544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586771230, "dur":1083, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586772442, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586772557, "dur":48616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586821589, "dur":1001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586822593, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586823079, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586823167, "dur":37668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586861704, "dur":1636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586863344, "dur":490, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586863887, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586863950, "dur":42300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586906721, "dur":2040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586908763, "dur":435, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586909285, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586909346, "dur":23011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586933363, "dur":2581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586935947, "dur":606, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586936564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586936577, "dur":20289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586957646, "dur":827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586958476, "dur":544, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586959076, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586959192, "dur":30325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586990459, "dur":679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248586991139, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586991470, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248586991558, "dur":49688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587041751, "dur":1550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587043303, "dur":702, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587044058, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587044119, "dur":27548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587072494, "dur":1620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587074116, "dur":615, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587074786, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587074864, "dur":27548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587105124, "dur":1268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587106394, "dur":3284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587109759, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587109855, "dur":38142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587148551, "dur":1950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587150503, "dur":532, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587151090, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587151155, "dur":15100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587166374, "dur":1164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587167541, "dur":681, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587168481, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587168554, "dur":35171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587204288, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587204667, "dur":410, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587205128, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587205190, "dur":13122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587218816, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587219233, "dur":437, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587219730, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587219823, "dur":26229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587246787, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587247308, "dur":605, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587247982, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587248242, "dur":58245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587306930, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587307324, "dur":833, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587308211, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587308271, "dur":139614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587448656, "dur":2184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587450841, "dur":968, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587451868, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587451935, "dur":218755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587671780, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587672262, "dur":3133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587675451, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587675521, "dur":16846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587692744, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587693261, "dur":568, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587693881, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587693943, "dur":45241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587739888, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248587740334, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587740796, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248587741047, "dur":409670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248588151157, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248588151547, "dur":403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248588151998, "dur":49, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248588152109, "dur":32816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248588185524, "dur":1377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248588186904, "dur":20144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248588207106, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248588207169, "dur":206743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248588414324, "dur":358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248588414684, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248588415108, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248588415563, "dur":145877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1713248588561972, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1713248588562606, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248588563562, "dur":27523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1713248588591726, "dur":2733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1713248588594512, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248588594569, "dur":196606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1713248588791729, "dur":488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1713248588792267, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248588792323, "dur":10121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1713248588803010, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1713248588803556, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713248588803609, "dur":151671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1713248588955780, "dur":5434657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248586527552, "dur":266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248586527818, "dur":39211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248586567035, "dur":2309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1713248586569347, "dur":465, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248586570001, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248586606238, "dur":25436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1713248586633010, "dur":2858, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1713248586635871, "dur":603, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248586636540, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248586640854, "dur":21185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1713248586662583, "dur":919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248586663505, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248586663796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248586663805, "dur":307010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248586971299, "dur":1110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248586972412, "dur":982, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248586973450, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248586973514, "dur":30198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248587004485, "dur":1174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248587005663, "dur":2816, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248587008536, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248587008601, "dur":27721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248587036950, "dur":1116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248587038068, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248587038563, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248587038644, "dur":32058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248587071128, "dur":1417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248587072548, "dur":535, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248587073137, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248587073199, "dur":24897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248587102121, "dur":1215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248587103340, "dur":421, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248587103814, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248587103921, "dur":32947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248587171076, "dur":7201918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248594373050, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713248594373116, "dur":16696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1713248594390209, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1713248594390219, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586527618, "dur":220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586527838, "dur":37446, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586565302, "dur":919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1713248586566223, "dur":1682, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586567952, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586594376, "dur":36005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1713248586630886, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1713248586631199, "dur":1242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586632523, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586632809, "dur":21597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1713248586654860, "dur":1028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586655890, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586656322, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586663036, "dur":40151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586703875, "dur":1282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586705159, "dur":569, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586705784, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586706393, "dur":60634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586768061, "dur":1241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586769306, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586769782, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586769865, "dur":49421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586819867, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586820879, "dur":435, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586822652, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586822728, "dur":39026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586862987, "dur":1035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586864024, "dur":457, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586864536, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586864599, "dur":42187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586960922, "dur":1526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586962451, "dur":1318, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586965897, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586965977, "dur":25178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586991226, "dur":824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248586992053, "dur":448, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586992578, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248586992828, "dur":48250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248587041645, "dur":1251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248587042898, "dur":865, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248587043814, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248587045001, "dur":31723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248587077150, "dur":1433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248587078585, "dur":1070, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248587079707, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248587079773, "dur":28356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248587108615, "dur":1239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248587109856, "dur":514, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248587110424, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248587110484, "dur":38350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248587149540, "dur":1528839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248588678432, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248588678494, "dur":10641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1713248588690768, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1713248588691329, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248588691485, "dur":69048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1713248588761078, "dur":1406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1713248588762487, "dur":568, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248588763107, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248588763563, "dur":13041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1713248588777070, "dur":91806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1713248588868880, "dur":502, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248588869437, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248588869497, "dur":13165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1713248588883193, "dur":1517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1713248588884794, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248588884857, "dur":12398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1713248588897679, "dur":1833, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1713248588899524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248588899534, "dur":13755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1713248588913790, "dur":29295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1713248588943086, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248588943178, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713248588943190, "dur":10122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1713248588953775, "dur":5436761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586527667, "dur":180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586527847, "dur":37342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586566238, "dur":1910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1713248586568150, "dur":744, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586568943, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586602929, "dur":28629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1713248586632361, "dur":3866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1713248586636231, "dur":1160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586637946, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586640971, "dur":23863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1713248586665321, "dur":1709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1713248586667033, "dur":4449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586671532, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586671584, "dur":68640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1713248586740682, "dur":1214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586741898, "dur":420, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586742428, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586742519, "dur":60914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586804117, "dur":1642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586805762, "dur":448, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586806647, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586806713, "dur":30698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586838172, "dur":626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586838800, "dur":595, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586839450, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586839507, "dur":42003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586881940, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586882150, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586882416, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586883099, "dur":28933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586912451, "dur":1135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586913588, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586914092, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586914154, "dur":43620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586958298, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586958761, "dur":1226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586960043, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586960101, "dur":27289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586989497, "dur":1335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248586990834, "dur":2733, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586993674, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248586993764, "dur":46608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248587040799, "dur":2420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248587043221, "dur":553, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248587043824, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248587044089, "dur":35163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248587079669, "dur":971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248587080643, "dur":861, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248587081559, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248587081620, "dur":17794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248587101447, "dur":5656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248587107106, "dur":2759, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248587109917, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248587109975, "dur":24435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248587134863, "dur":1426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248587136292, "dur":2483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248587138855, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248587138922, "dur":29768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248587169210, "dur":1319424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248588488738, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248588488811, "dur":19350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248588508644, "dur":618554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248589127255, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713248589127324, "dur":12074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1713248589139473, "dur":5251042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248586527705, "dur":148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248586527853, "dur":37334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248586565298, "dur":1508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1713248586566809, "dur":1868, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248586568727, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248586595257, "dur":35792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1713248586631120, "dur":5394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1713248586636516, "dur":607, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248586637169, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248586644294, "dur":10359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1713248586655197, "dur":1083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713248586656284, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248586656709, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248586663176, "dur":163864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713248586836347, "dur":1799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713248586838149, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248586838347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248586838357, "dur":28552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713248586867641, "dur":4753307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713248591621013, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713248591621081, "dur":15013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1713248591636597, "dur":2753815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586527756, "dur":106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586527862, "dur":39423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586567291, "dur":2062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1713248586569355, "dur":610, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586570007, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586616548, "dur":24700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1713248586642066, "dur":1431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1713248586643500, "dur":495, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586644048, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586646710, "dur":18756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1713248586666622, "dur":865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator.exe" }}
+,{ "pid":12345, "tid":7, "ts":1713248586667490, "dur":1408, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586668966, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586669030, "dur":17705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator.exe" }}
+,{ "pid":12345, "tid":7, "ts":1713248586687176, "dur":1956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586689134, "dur":7008, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586696203, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586705303, "dur":66603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586772542, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586772981, "dur":644, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586773720, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586773800, "dur":45756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586820118, "dur":1050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586821171, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586821674, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586821772, "dur":26301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586848628, "dur":3892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586852523, "dur":1757, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586854343, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586854410, "dur":50391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586905272, "dur":1080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586906355, "dur":406, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586906838, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586906964, "dur":29957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586937705, "dur":1974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586939682, "dur":899, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586940640, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586940704, "dur":16912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586958179, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586958483, "dur":610, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586959182, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586959242, "dur":27031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586987332, "dur":1311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248586988645, "dur":2414, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586991069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248586991080, "dur":44175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587035818, "dur":1140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587036960, "dur":511, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587037604, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587037697, "dur":34216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587072540, "dur":1100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587073643, "dur":504, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587074413, "dur":41, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587074514, "dur":30082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587105069, "dur":945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587106016, "dur":423, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587106491, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587106555, "dur":41017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587148079, "dur":5674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587153757, "dur":3223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587157066, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587157131, "dur":20399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587177735, "dur":855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587178593, "dur":445, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587179132, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587179233, "dur":24056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587203710, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587204118, "dur":399, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587204607, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587204688, "dur":100318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587306127, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587306637, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587307142, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587307205, "dur":361761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587669112, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587669538, "dur":431, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587670027, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587670273, "dur":20598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587690969, "dur":524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587691497, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587691984, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587692077, "dur":22785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587718476, "dur":1212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248587719691, "dur":1106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587720851, "dur":18, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248587721082, "dur":410023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248588131543, "dur":1117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248588132663, "dur":521, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248588133240, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248588133333, "dur":17509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248588151263, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248588151633, "dur":382, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248588152063, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248588152122, "dur":30669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248588182849, "dur":543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248588183395, "dur":615, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248588184070, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248588184135, "dur":16479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248588201226, "dur":521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248588201750, "dur":2079, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248588203934, "dur":45, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248588204037, "dur":471444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1713248588676113, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1713248588676631, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713248588676736, "dur":1002395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1713248589679724, "dur":4710680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586527798, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586527799, "dur":37384, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586565206, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1713248586565214, "dur":575, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586565837, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1713248586565878, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586566405, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586576489, "dur":40444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/app.info" }}
+,{ "pid":12345, "tid":8, "ts":1713248586616965, "dur":2570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1713248586619538, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586619975, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586620192, "dur":26942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1713248586647648, "dur":1913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1713248586649564, "dur":467, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586650078, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586650139, "dur":28173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1713248586679016, "dur":2626, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586681644, "dur":422, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586682154, "dur":249, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586705000, "dur":56465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586761949, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586762564, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586763101, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586763344, "dur":40652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586804454, "dur":1224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586805679, "dur":463, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586806200, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586806265, "dur":29089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586835856, "dur":1155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586837013, "dur":468, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586837565, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586837634, "dur":29081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586867262, "dur":3140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586870406, "dur":645, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586871066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586871081, "dur":55508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586927934, "dur":1487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586929424, "dur":1215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586930697, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586930759, "dur":22072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586958350, "dur":1469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586959821, "dur":409, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586960285, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586960373, "dur":36639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586997613, "dur":974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248586998590, "dur":931, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586999584, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248586999647, "dur":35059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248587034770, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248587035199, "dur":426, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248587035851, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248587035916, "dur":35166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248587071647, "dur":1228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248587072877, "dur":480, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248587073401, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248587073457, "dur":75156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248587149207, "dur":2327798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248589477065, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713248589477134, "dur":17454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Admin/Desktop/game/Unconventional Stick Swinging Simulator_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1713248589494987, "dur":4895404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713248594429419, "dur":61090, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1713248594564118, "dur": 271686, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1713248594563357, "dur": 273032, "ph": "X", "name": "Write chrome-trace events", "args": {} },
